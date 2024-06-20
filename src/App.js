@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Table from './Components/Table/Table';
 import Create from './Components/Create/Create';
 import Details from './Components/Details/Details';
+import './App.css'
 
 const App = () => {
   const [data, setData] = useState([

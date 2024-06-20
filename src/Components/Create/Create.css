@@ -1,0 +1,12 @@
+.create-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.create-container input {
+    margin-bottom: 10px;
+}
+
+.buttons button{
+    margin: 10px;
+}

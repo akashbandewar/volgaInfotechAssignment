@@ -1,0 +1,13 @@
+.details-container{
+    text-align: center;
+    margin-top: 50px
+}
+
+.details-table{
+    width: 40%;
+}
+
+.home-button{
+    margin: 20px;
+    padding: 5px;
+}
