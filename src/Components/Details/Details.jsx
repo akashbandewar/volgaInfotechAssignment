@@ -7,7 +7,13 @@ const Details = ({ data }) => {
   const { id } = useParams();
   const record = data.find(record => record.id === parseInt(id));
   const navigate = useNavigate();
-  if (!record) return <div>Record not found</div>;
+  if (!record) 
+    return (
+        <div className='error-message'>
+            <h1>Record not found</h1>
+            <button className='home-button' onClick={() => navigate('/')}>Home</button>
+        </div>
+    );
 
   return (
     <div className='details-container'>

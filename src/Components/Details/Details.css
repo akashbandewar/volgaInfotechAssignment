@@ -11,3 +11,7 @@
     margin: 20px;
     padding: 5px;
 }
+
+.error-message {
+    text-align: center;
+}
