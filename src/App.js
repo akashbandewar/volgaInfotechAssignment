@@ -15,7 +15,7 @@ const App = () => {
 
   const addRecord = (record) => {
     const duplicateData = data.find((entry) => entry.email === record.email);
-    duplicateData ? alert(`Entry not added as the Duplicate Entry found for ${duplicateData.email}`) : setData([...data, { ...record, id: data.length === 0 ? 1 : data[data.length - 1].id + 1 }]);
+    duplicateData ? alert(`Entry not added as the there is an existing record for ${duplicateData.email}`) : setData([...data, { ...record, id: data.length === 0 ? 1 : data[data.length - 1].id + 1 }]);
   };
 
   const deleteRecord = (id) => {
